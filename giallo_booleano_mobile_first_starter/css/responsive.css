@@ -1,4 +1,15 @@
 /* Soluzione qui */
+@media screen and (min-width: 576px){
+  .presentation img{
+    float: left;
+    margin-right: 10px;
+  }
+  .social-networks .btn{
+    width: 20%;
+  }
+  
+}
+
 @media all and (min-width: 768px){
   #topbar{
     justify-content: flex-start;
@@ -11,8 +22,8 @@
     display: inline;
   }
 
-  .container{
-    padding: 30px;
+  main{
+    padding: 50px;
   }
 
   .quick-notes ul{
@@ -20,6 +31,9 @@
     flex-wrap: wrap;
     column-gap: 30px;
   }
+
+  /* .quick-notes ul li}{
+  width: calc(100% / 3) */
 
   .social-networks{
     gap: 0;
@@ -35,17 +49,21 @@
   }
 .presentation img{
   float: left;
+  margin-right: 10px;
 }
 }
 
 @media all and (min-width: 992px){
-
+  .recipe-name{
+    font-size: 40px;
+  }
   .recipe-card{
     display: flex;
   }
 
   .recipe-video{
     width: 70%;
+    max-height: 420px;
   }
 
   .recipe-info{
@@ -55,6 +73,7 @@
   .social-networks .btn{
     display: flex;
   }
+
   .social-networks .label {
 	display: block;
   padding-right: 20px;
@@ -74,4 +93,6 @@
   footer .adress{
     text-align: start;
   }
+
+
 }
